@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Accesorios</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+    
+
+    <script src="https://kit.fontawesome.com/e8ae0d13c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Menu de navegacion con sus diferentes secciones-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-plum ">
+            <div class="container">
+                <a href="./index.html" class="navbar-brand"><img src="./assets/image/om-logo.png" width="50px"></a>
+                <button 
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#contenidoMenu"
+                    aria-controls="contenidoMenu"
+                    aria-expanded="false"
+                    aria-label="Mostrar/Ocultar Navegacion"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="contenidoMenu">
+                    <!--Enlaces-->
+
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Envios Y Entregas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="assets/views/contacto.html" class="nav-link">Contacto</a>
+                        </li>
+
+                    </ul>
+
+                    <form action="" class="d-flex">
+                        <input type="text" class="form-control me-2" areia-label="Buscar" placeholder="Buscar" name="" id="">
+
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+                    </form>
+
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Carousel de imagenes, aunque funciona queda feo ya que no tiene estilos css-->
+
+    <div class="container">
+        <div class="row mt-5" >
+            <div class="col">
+                <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/image/bienvenido3.png"   class="d-block w-100" alt="" >
+                        </div>
+    
+                        <div class="carousel-item">
+                            <img src="./assets/image/descuentos1.jpg" class="d-block w-100" alt="" >
+                        </div>
+    
+                        <div class="carousel-item">
+                            <img src="./assets/image/ofertas2.jpeg"  class="d-block w-100" alt="" >
+                        </div>
+                    </div>
+                    
+                    <!--Controles-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+
+                    <!--Indicadores-->
+
+                    <dir class="carousel-indicators">
+                        <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide #1">
+
+                        </button>
+                        <button type="button" data-bs-target="#slideshow" data-bs-slide-to="1"  aria-current="true" aria-label="Slide #2">
+
+                        </button>
+                        <button type="button" data-bs-target="#slideshow" data-bs-slide-to="2"  aria-current="true" aria-label="Slide #3">
+
+                        </button>
+                    </dir>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+
+        <!-- Este main tiene diferentes articulos, ya que como es un E comerce, tiene sus 
+        cartas dividas.-->
+
+    <div class="tituloProductosDestacados col-12 col-mb-6 justify-content-center">
+        <h2>Productos Destacados</h2>
+    </div>
+        
+    <div class="contendorCartas">
+        <div class="card">
+            <img class="card__image" src="./assets/image/aros.jpg" alt="">
+            <div class="card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquid nulla totam in ipsam alias veniam doloremque dolorem non, nostrum distinctio porro placeat asperiores magnam reiciendis. Dignissimos nostrum odit qui!</p>
+
+            </div>
+
+            <div class="card__info">
+                
+                <div>
+                    <a href="./" class="card__link">Comprar</a>
+                </div>
+
+                <div>
+                    <a href="./assets/views/productos.html" class="card__link">Ver Mas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card__image" src="./assets/image/anillos.png" alt="">
+            <div class="card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquid nulla totam in ipsam alias veniam doloremque dolorem non, nostrum distinctio porro placeat asperiores magnam reiciendis. Dignissimos nostrum odit qui!</p>
+
+            </div>
+
+            <div class="card__info">
+                
+                <div>
+                    <a href="./" class="card__link">Comprar</a>
+                </div>
+
+                <div>
+                    <a href="./assets/views/productos.html" class="card__link">Ver Mas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card__image" src="./assets/image/Chokers.png" alt="">
+            <div class="card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquid nulla totam in ipsam alias veniam doloremque dolorem non, nostrum distinctio porro placeat asperiores magnam reiciendis. Dignissimos nostrum odit qui!</p>
+
+            </div>
+
+            <div class="card__info">
+                
+                <div>
+                    <a href="./" class="card__link">Comprar</a>
+                </div>
+
+                <div>
+                    <a href="./assets/views/productos.html" class="card__link">Ver Mas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card__image" src="./assets/image/collar.jpg" alt="">
+            <div class="card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquid nulla totam in ipsam alias veniam doloremque dolorem non, nostrum distinctio porro placeat asperiores magnam reiciendis. Dignissimos nostrum odit qui!</p>
+
+            </div>
+
+            <div class="card__info">
+                
+                <div>
+                    <a href="./" class="card__link">Comprar</a>
+                </div>
+
+                <div>
+                    <a href="./assets/views/productos.html" class="card__link">Ver Mas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card__image" src="./assets/image/Dijes.png" alt="">
+            <div class="card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquid nulla totam in ipsam alias veniam doloremque dolorem non, nostrum distinctio porro placeat asperiores magnam reiciendis. Dignissimos nostrum odit qui!</p>
+
+            </div>
+
+            <div class="card__info">
+                
+                <div>
+                    <a href="./" class="card__link">Comprar</a>
+                </div>
+
+                <div>
+                    <a href="./assets/views/productos.html" class="card__link">Ver Mas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card__image" src="./assets/image/piedras.png" alt="">
+            <div class="card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquid nulla totam in ipsam alias veniam doloremque dolorem non, nostrum distinctio porro placeat asperiores magnam reiciendis. Dignissimos nostrum odit qui!</p>
+
+            </div>
+
+            <div class="card__info">
+                
+                <div>
+                    <a href="./" class="card__link">Comprar</a>
+                </div>
+
+                <div>
+                    <a href="./assets/views/productos.html" class="card__link">Ver Mas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card__image" src="./assets/image/Piercings.png" alt="">
+            <div class="card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquid nulla totam in ipsam alias veniam doloremque dolorem non, nostrum distinctio porro placeat asperiores magnam reiciendis. Dignissimos nostrum odit qui!</p>
+
+            </div>
+
+            <div class="card__info">
+                
+                <div>
+                    <a href="./" class="card__link">Comprar</a>
+                </div>
+
+                <div>
+                    <a href="./assets/views/productos.html" class="card__link">Ver Mas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card__image" src="./assets/image/pulseras.png" alt="">
+            <div class="card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aliquid nulla totam in ipsam alias veniam doloremque dolorem non, nostrum distinctio porro placeat asperiores magnam reiciendis. Dignissimos nostrum odit qui!</p>
+
+            </div>
+
+            <div class="card__info">
+                
+                <div>
+                    <a href="./" class="card__link">Comprar</a>
+                </div>
+
+                <div>
+                    <a href="./assets/views/productos.html" class="card__link">Ver Mas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Este section contiene Informacion adiocional de la tienda -->
+
+    <section class="contenedor-padre">
+       <div class="contenedor-nuevo">
+            <div class="contenedor-hijo">
+                <h2>Envios</h2>
+                <img src="assets/image/truck.png" alt="">
+                <p>Envios a todo el pais. Rapidos y economicos.</p>
+
+            </div>
+            <div class="contenedor-hijo">
+                <h2>Todas las tarjetas</h2>
+                <img src="assets/image/card.png" alt="">
+                <p>Trabajamos con todas las tarjetas.</p>
+            </div>
+            <div class="contenedor-hijo">
+                <h2>Seguridad</h2>
+                <img src="assets/image/lock.png" alt="">
+                <p>Sitio Seguro. Protegemos tus datos.</p>
+            </div>
+       </div>
+    </section>
+
+
+<!--
+Aquie comienza el footer con algunas redes e informacion que deberia tener la pagina-->
+ 
+    <footer class="pie-pagina">
+        <div class="grupo1">
+            <div class="caja">
+                <figure>
+                    <a href="index.html">
+                        <img src="./assets/image/om-logo.png" alt="LOGO De om Accesorios">
+                    </a>
+                </figure>
+            </div>
+            <div class="caja">
+                <h2>Sobre Nosotros</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, laborum?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, laborum?</p>
+            </div>
+            <div class="caja">
+                <h2>Siguenos</h2>
+                <div class="red-social">
+                    <a href="https://es-la.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/?hl=es" class="fa fa-instagram"></a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="grupo2">
+            <small> &copy; <b>Om Accesorios</b> -Todos los Derechos Reservados</small>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   
+
+</body>
+</html>
